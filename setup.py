@@ -12,7 +12,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
 
-    name='json-path', 
+    name='jsonpathgenerator', 
 
     version='0.0.1',  
 
@@ -49,9 +49,9 @@ setup(
 
     keywords='Json Jsonpath xpath jsonnotation json parser safe parser',  
 
-    package_dir={'': 'src'},  
+    py_modules=["jsonpath.py"],
 
-    py_modules=["JSONPathGenerator.py"],
+    package_dir={'': 'src'},  
 
     python_requires='>=3.5, <4'
 )

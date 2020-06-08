@@ -18,12 +18,14 @@ Python project to generate Json path notations
 
 # Usage Examples
 
-    js = JSONPathGenerator()
+def main():
 
-    with open('sample_json.json', 'r') as Json_file:
-        for line in Json_file:
-            json_line=json.loads(line)
-            json_path_list=js.get_json_path(json_line,notation='dot')
-            print(json_path_list)
+    js=jsonpath()
 
+    with open('sample_json.json','r') as file:
+        json_line=json.load(file)
+        json_path_list=js.get_json_path(json_line,notation="bracket")
+        print(json_path_list)
+
+i
 
