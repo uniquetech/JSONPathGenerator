@@ -3,13 +3,15 @@
 
   funtion to convert a nested json to nested dictionary enumerating the lists to child dictionaries
 
-
-
-
+# INSTALLATION
+      
+   pip install jsonpathgenerator
 
 # USAGE
 
-   js = jsonpathgenerator()
+   from jsonpathgenerator import jsonpath
+   
+   js = jsonpath()
 
    js.get_json_path(json-line,notation='dot')
 
@@ -21,12 +23,14 @@
 # Usage Examples
 
 
-    js=jsonpath()
+    js = jsonpath()
 
     with open('sample_json.json','r') as file:
         json_line=json.load(file)
         json_path_list=js.get_json_path(json_line,notation="bracket")
         print(json_path_list)
+
+
 
 
 
