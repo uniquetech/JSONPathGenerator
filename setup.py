@@ -14,7 +14,7 @@ setup(
 
     name='jsonpathgenerator', 
 
-    version='0.0.1',  
+    version='0.0.2',  
 
     description='Get Json path from a nested json document. specify notation dot or bracket',  
 
