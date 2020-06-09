@@ -1,5 +1,7 @@
 # JSONPathGenerator
-Python project to generate Json path notations
+  Python project to generate Json path in notations dot or bracket.
+
+  funtion to convert a nested json to nested dictionary enumerating the lists to child dictionaries
 
 
 
@@ -7,9 +9,9 @@ Python project to generate Json path notations
 
 # USAGE
 
-   js = JSONPathGenerator()
+   js = jsonpathgenerator()
 
-   js.get_json_path(<json-line>,notation='<str>')
+   js.get_json_path(json-line,notation='dot')
 
    notation = "dot"
 
@@ -18,7 +20,6 @@ Python project to generate Json path notations
 
 # Usage Examples
 
-def main():
 
     js=jsonpath()
 

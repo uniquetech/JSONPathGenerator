@@ -49,9 +49,9 @@ setup(
 
     keywords='Json Jsonpath xpath jsonnotation json parser safe parser',  
 
-    py_modules=["jsonpath.py"],
+    py_modules=['jsonpathgenerator'],
 
     package_dir={'': 'src'},  
-
+    
     python_requires='>=3.5, <4'
 )
