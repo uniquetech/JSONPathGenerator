@@ -26,7 +26,7 @@
     js = jsonpath()
 
     with open('sample_json.json','r') as file:
-        json_line=json.load(file)
+        json_line=json.loads(file)
         json_path_list=js.get_json_path(json_line,notation="bracket")
         print(json_path_list)
 
